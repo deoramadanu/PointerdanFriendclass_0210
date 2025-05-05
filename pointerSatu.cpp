@@ -10,6 +10,9 @@ int main()
     cout << "Alamat memori : " << c << endl;
     cout << "Nilai dari c : " << *c << endl;
     c = &y;
-    cout << "Alamat memori : " << c << endl;
+    cout << "Alamat memori : " << c << endl; //menampilkan lokasi memori
     cout << "Nilai dari c : " << *c << endl;
+
+    
+
 }
