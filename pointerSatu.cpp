@@ -13,6 +13,9 @@ int main()
     cout << "Alamat memori : " << c << endl; //menampilkan lokasi memori
     cout << "Nilai dari c : " << *c << endl;
 
-    
+    //reference
+    int &d = b;
+    cout << "Nilai" << endl;
+    cout << "reference" << &d << endl; 
 
 }
